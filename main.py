@@ -21,7 +21,7 @@ else:
 
 
 if (catlocation == 3):
- print('the cat is on the backjard')
+ print('the cat is on the backyard')
 else:
   print('looking')
 
