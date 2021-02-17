@@ -1,11 +1,15 @@
-print ('iniciando')
+print ('starting')
 
-pregunta="donde esta el gatito"
-print(pregunta)
-print('1.en el arbol')
-print('2.en su casita')
-print('3.en el patio')
-respuesta=input()
-print ('el gatito esta en ' + respuesta)
+question="where is the cat"
+print(question)
+print('1.on the tree')
+print('2.on his house')
+print('3.on the backyard')
+catlocation = input()
+catlocation = int(catlocation)
+print(catlocation)
+if (catlocation == 1):
+ print('the cat is on the tree')
+
 
 #https://www.youtube.com/watch?v=shO5VbD2rNI
