@@ -1,6 +1,8 @@
+import time
 catlocation = 0
 while catlocation != 4:
     print('starting')
+    time.sleep(5)
     #ask the question
     question = "where is the cat?"
     print(question)
